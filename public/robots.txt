@@ -1,0 +1,6 @@
+# Allow all search engines to access everything
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://allure.run/sitemap-index.xml

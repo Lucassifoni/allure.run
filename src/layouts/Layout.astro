@@ -8,8 +8,24 @@ import "../assets/app.css";
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width" />
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="sitemap" href="/sitemap-index.xml" />
         <meta name="generator" content={Astro.generator} />
-        <title>Astro Basics</title>
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "WebApplication",
+                "name": "Allure.run - Running Calculator Tools",
+                "applicationCategory": "Sports",
+                "operatingSystem": "Any",
+                "offers": {
+                    "@type": "Offer",
+                    "price": "0",
+                    "priceCurrency": "USD"
+                },
+                "description": "No-nonsense running calculators for pace, race prediction, and training. Fast, mobile-friendly, and straightforward tools for your running experience."
+            }
+        </script>
+        <title>Allure.run - Running Calculator Tools</title>
     </head>
     <body>
         <slot />
